@@ -1,0 +1,15 @@
+.searchBoxContainer {
+    background-color: #1847A1;
+    display: flex;
+    min-height: 15vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+h3 {
+    align-self: flex-start;
+    color: white;
+    font-size: 2rem;
+}
