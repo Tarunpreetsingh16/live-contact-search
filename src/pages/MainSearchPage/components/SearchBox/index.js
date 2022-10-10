@@ -2,12 +2,12 @@ import React from 'react';
 import SearchBar from '../../../../components/SearchBar';
 import './style.css'
 
-const SearchBox = () => {
+const SearchBox = ({searchKeywordChanged}) => {
     return (
         <div className='searchBoxContainer'>
             <h3>Search Contact</h3>
             <div className='searchBarContainer'>
-                <SearchBar />
+                <SearchBar textChanged={searchKeywordChanged} />
             </div>
         </div>
     )

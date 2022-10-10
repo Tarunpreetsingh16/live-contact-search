@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/live-contact-search/static/css/main.e4af2454.css",
+    "main.js": "/live-contact-search/static/js/main.e474db78.js",
+    "static/js/787.e9b34a8b.chunk.js": "/live-contact-search/static/js/787.e9b34a8b.chunk.js",
+    "index.html": "/live-contact-search/index.html",
+    "main.e4af2454.css.map": "/live-contact-search/static/css/main.e4af2454.css.map",
+    "main.e474db78.js.map": "/live-contact-search/static/js/main.e474db78.js.map",
+    "787.e9b34a8b.chunk.js.map": "/live-contact-search/static/js/787.e9b34a8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4af2454.css",
+    "static/js/main.e474db78.js"
+  ]
+}
