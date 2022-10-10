@@ -1,0 +1,63 @@
+.contactCardContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactImg {
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.629);
+}
+
+.details {
+    padding: 0 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactDetails {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.details h3 {
+    color: black;
+}
+
+.skillsContainer {
+    font-size: 1.8rem;
+    flex-direction: column;
+    display: flex;
+    height: 35%;
+    justify-content: space-around;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.skillsContainer h4 {
+    margin: 0.2rem 0;
+    background-color: rgba(0, 153, 255, 0.692);
+    color: white;
+    padding: 0.2rem 0.1rem
+}
+
+.skill {
+    margin: 0.1rem 0.5rem 0.1rem 0;
+}
+
+.skills::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.skills::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: rgba(256, 100, 0, .5);
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-const SearchBar = () => {
+const SearchBar = ({textChanged}) => {
     return (
         <div className='searchBarContainer'>
             <input className='searchBar' type='text' placeholder='Type name, skills, or any attibute...'/>
