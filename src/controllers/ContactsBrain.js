@@ -70,6 +70,6 @@ const searchSkills = (skills, keyword) =>
     skills.some((skill) => containsKeyword(skill, keyword))
 
 const containsKeyword = (string, keyword) =>
-    string.includes(keyword)
+    string.toLowerCase().includes(keyword.toLowerCase())
 
 export { Contacts, searchContacts }

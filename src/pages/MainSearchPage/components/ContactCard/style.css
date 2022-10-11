@@ -51,6 +51,7 @@
 
 .skill {
     margin: 0.1rem 0.5rem 0.1rem 0;
+    font-size: 1rem;
 }
 
 .skills::-webkit-scrollbar {

@@ -18,18 +18,10 @@ const MainScreenPage = () => {
         }
     }, [updatedKeyword])
 
-    const overflowY = {
-        'overflowY': 'scroll'
-    }
-
-    const overflowHidden = {
-        'overflow' : 'hidden'
-    }
-
     return (
         <div className='mainContentContainer containerWidth'>
             <SearchBox searchKeywordChanged={setUpdatedKeyword}/>
-            <div id='contactList' style={contacts.length <= 1 ? overflowHidden : overflowY}>
+            <div id='contactList'>
                 {
                     contacts.map((contact) =>
                         <div className='contactContainer'  key={contact.email}>
